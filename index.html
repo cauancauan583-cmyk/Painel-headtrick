@@ -1,0 +1,67 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Barbie</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .painel {
+            background-color: pink;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+        }
+        .titulo {
+            font-size: 24px;
+            color: #FF69B4;
+        }
+        .opcao {
+            margin: 15px 0;
+        }
+        input[type='range'] {
+            width: 100%;
+        }
+        .botao {
+            padding: 10px 20px;
+            background-color: #FF69B4;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .botao:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="painel">
+        <h1 class="titulo">PAINEL BARBIE @mistersensi</h1>
+        <div class="opcao">Principal</div>
+        <div class="opcao">Cabeça</div>
+        <div class="opcao">Pescoço</div>
+        <div class="opcao">Pelo</div>
+        <div class="opcao">Regular</div>
+        <input type="range" min="1" max="100" value="50">
+        <div class="opcao">Aimbot</div>
+        <div class="opcao">Modo Sensi: <strong>Sensi Alta</strong></div>
+        <div class="opcao">Tipo de Mira:</div>
+        <select>
+            <option value="precisa">Precisa</option>
+            <option value="rapida">Rápida</option>
+        </select>
+        <button class="botao">Aplicar</button>
+    </div>
+</body>
+</html>
+```
